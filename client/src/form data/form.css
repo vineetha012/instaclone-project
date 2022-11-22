@@ -1,0 +1,54 @@
+#form-data{
+    width: 60vw;
+    height: 50vh;
+    
+    border-radius: 8px;   
+   
+    margin:8vh auto;
+}
+#file-container{
+ margin: 2vh auto;
+ /* margin-top: 4vh; */
+ border: 1px solid black;
+ position: relative;
+ left: 5vw;
+ width: 30vw;
+ border-radius: 4px;
+}
+#name-container{
+    height: 4vh;
+    width: 12vw;
+    position: relative;
+    left: 5vw;
+    border-radius: 4px;
+}
+#location-container{
+    height: 4vh;
+    width: 12vw;
+    position: relative;
+    left:11vw;
+    border-radius: 4px;
+}
+#description-container{
+    height: 4vh;
+    width: 30vw;
+    position: relative;
+    left: 5vw;
+    margin-top:2vh;
+    border-radius: 4px;
+ }
+#post-submit{
+    height: 4vh;
+    width: 8vw;
+    margin:4vh 16vw;
+    border-radius: 4px;
+    background-color: rgb(217, 121, 200);
+    color: #fff;
+
+}
+.formpage{
+    border: 1px solid black;
+    width:40vw;
+    margin-left: 10vw;
+    margin-top: 50px;
+}

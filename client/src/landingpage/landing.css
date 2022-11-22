@@ -1,0 +1,45 @@
+
+.landing {
+    display: flex;
+    column-gap: 100px;
+    flex-direction: row;
+    width:80%;
+    padding: 20px;
+    height:600px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: 1px solid green;
+}
+.landing-image {
+    width: 50%;
+    height: 100%;
+   
+}
+.landing-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.landing-actions {
+    width: 50%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+.landing-text {
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.landing-actions {
+    align-items: center;
+}
+.button {
+    border-color: green;
+    border-radius: 5px;
+    color: green;
+    background-color: white;
+    align-items: center;
+}

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+#insta-container{
+    width: 60vw;
+    margin: 2vh auto;
+   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 2vw;
+}
+#post-card{
+    width: 35vw;
+    height:auto;
+    border: 0.5px solid rgb(220, 218, 218);
+    padding:4px 16px;
+    margin:10px 0px;
+    border-radius: 8px;
+}
+.image{
+    width: 100%;
+    height: 200px;
+}
+#post-card>h1{
+ margin: 0px;
+ font-size:16px;
+ text-align: left;
+ font-weight:bold;
+}
+#post-card>a{
+    margin: 0px;
+    color: black;
+    float: right;
+
+}
+#post-card>h2{
+margin:5px 0px;
+ font-size:16px;
+ text-align: left;
+ font-weight:bold;
+ color:#707070; 
+ 
+}
+#post-card>img{
+    height:64%;
+    width: 100%;
+    border:0.5px solid green;
+}
+#like-box{
+    display: flex;
+    margin-top: 4px;
+}
+#like-box>.fa-heart{
+color: pink;
+}
+#like-box>.fa-comment-o{
+color: aquamarine;
+position: relative;
+left:16px;
+}
+#like-box>.fa-paper-plane-o{
+position: relative;
+left: 36px;
+}
+#like-box>.fa-ellipsis-h{
+color:rgb(153, 153, 244);
+position: relative;
+left: 120px;
+bottom: 10px;
+}
+#like-box>.fa-bookmark-o{
+    position: relative;
+    left:320px;
+    color: blue;
+}
+#desciption{
+    margin: 0px;
+    position: relative;
+    bottom: 24px;
+}
